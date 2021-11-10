@@ -165,7 +165,7 @@ class AddressBookServiceTest {
         //////////////////////////////////////////////////////////////////////
 
         // We need to check personList remains the same before and after GET request
-        personListBeforeGet=addressBook.personList.toMutableList()
+        var personListBeforeGet=addressBook.personList.toMutableList()
         assertEquals(personListBeforeGet, addressBook.personList)
     }
 
